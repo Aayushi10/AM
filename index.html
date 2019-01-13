@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>login</title>
+   <link href="styles.css" type="text/css" rel="stylesheet" />
+    </head> 
+    <body>
+<center> <div class="page">       
+        <h1><center> Student Portal</center></h1>
+        <h2><center>Sign in</center></h2>
+        
+<form action="student dashboard.html" method="post">
+    <center> <label class="container"> 
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Faculty</span>
+</label>
+<label class="container"> 
+  <input type="radio" name="radio"> 
+  <span class="checkmark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Student</span>
+</label>
+<label class="container">
+  <input type="radio" name="radio">
+  <span class="checkmark">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admin</span>
+</label> </center>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+$('.form').find('input, textarea').on('keyup blur focus', function (e) {
+  
+  var $this = $(this),
+      label = $this.prev('label');
+
+	  if (e.type === 'keyup') {
+			if ($this.val() === '') {
+          label.removeClass('active highlight');
+        } else {
+          label.addClass('active highlight');
+        }
+    } else if (e.type === 'blur') {
+    	if( $this.val() === '' ) {
+    		label.removeClass('active highlight'); 
+			} else {
+		    label.removeClass('highlight');   
+			}   
+    } else if (e.type === 'focus') {
+      
+      if( $this.val() === '' ) {
+    		label.removeClass('highlight'); 
+			} 
+      else if( $this.val() !== '' ) {
+		    label.addClass('highlight');
+			}
+    }
+
+});
+
+$('.tab a').on('click', function (e) {
+  
+  e.preventDefault();
+  
+  $(this).parent().addClass('active');
+  $(this).parent().siblings().removeClass('active');
+  
+  target = $(this).attr('href');
+
+  $('.tab-content > div').not(target).hide();
+  
+  $(target).fadeIn(600);
+  
+});
+
+
+</script>
+
+  <p>
+    <input type="email" name="Email" size="20" required="required" placeholder="Email"/>
+    </p>
+   
+     <p>  <input type="password" name="password" size="20"required="required" placeholder="Password"/></p> 
+    <h5> 
+        <p align="left"> <a href="">Forgot Password?</a></p>
+    </h5>  
+    <p align="right" >
+        <a href="#"
+             class="button1">Sign in </a>  </p> 
+
+</form>
+    </div> </center>
+    </body>
+</html>

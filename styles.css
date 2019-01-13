@@ -1,0 +1,161 @@
+h1{
+    padding-top: 10px;
+    font-family: SF Pro Display thin;
+    text-shadow: 0 3px 8px rgba(0,0,0,.1);
+}
+h2
+{
+   
+    color:darkgrey;
+    font-family: SF Pro Display thin;
+       
+    }
+.button
+{
+    color:darkgrey;
+    margin:10px;
+    font-family: SF Pro Display Regular;
+  
+    }
+.container {
+    display: inline-block;
+    position: relative;
+    padding-left: 40px;
+   margin-left: 15px;
+    margin-right: 35px;
+    margin-bottom: 19px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	color: darkgrey;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    color:darkgrey;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #4dd2fd;
+    color:#4dd2fd;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: none;
+}
+
+a
+{
+    color:crimson;
+    padding-left: 30px;
+    font-family: SF Pro Display Regular ;
+    text-decoration: none;
+}
+
+a:hover{ color: #ef4565;
+    
+}
+input
+{
+   
+   padding-top: 10px;
+    padding-bottom: 10px;
+  padding-left: 10px ;
+margin: 4px 0px;
+
+ 
+
+    
+ padding-right: 100px;
+  border: 1px solid #ccc;
+    -webkit-transition:0.5s;
+    transition: 0.5s;
+    outline: none;
+  border-radius: 4px;
+   
+  font-family: SF Pro Display Regular ;
+    
+}
+input:focus{
+    border: 1.5px solid #4dd2fd ;
+}
+
+
+.button1
+{
+box-shadow: 0 4px 11px rgba(0,0,0,.2);
+  background-color: crimson;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+   text-align:center;
+  text-decoration: none;
+  border-radius: 8px;
+    margin:12px;
+    
+    font-family: SF Pro Display Regular;
+
+}
+.button1:hover{
+    background-color: #ef4565;
+    color:white;
+}
+
+
+
+body{
+   font-family: SF Pro Display Regular;
+    color: #000000;
+    padding: 10px;
+    margin-top: 40px;
+    
+}
+.page{
+    border: 1px solid  #f2396e ;
+    border-radius: 5px;
+    width: 330px;
+    height:450px;
+    padding-top: 20px;
+    box-shadow: 0 6px 17px rgba(0,0,0,.2);
+}
