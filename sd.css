@@ -1,0 +1,232 @@
+
+    @font-face {
+    font-family: SF Pro Display; src:url(SF-Pro-Display-Ultralight);
+    }
+    .ann{
+     border: 1px solid  #c7007f ;
+    border-radius: 5px;
+    width: 1200px;
+    height:320px;
+        font-family: SF Pro Display;
+        color:#c7007f;
+        box-shadow: 0 6px 17px rgba(0,0,0,.2);
+}
+
+
+
+.button1{
+    background-color:#c7007f;
+  border: none;
+  color: white;
+    font-size: 17px;
+  padding: 28px 20px;
+   font-family: SF Pro Display ultralight;
+    margin-left: 10px;
+    margin-top: 90px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+    box-shadow: 0 6px 11px rgba(0,0,0,.2);
+   
+    
+}
+.button1 a{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color:white;
+    text-align: justify;
+}
+.button1:hover{
+    background-color: deeppink;
+}
+.button2{
+    background-color:#c7007f;
+  border: none;
+  color: white;
+    font-size: 17px;
+  padding: 30px 38px;
+   font-family: SF Pro Display ultralight;
+    margin-left: 80px;
+    margin-top: 90px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+box-shadow: 0 6px 11px rgba(0,0,0,.2);
+}
+
+.button2:hover{
+    background-color: deeppink;
+}
+.button3
+{
+        background-color:#c7007f;
+  border: none;
+  color: white;
+    font-size: 17px;
+  padding: 30px 40px;
+   font-family: SF Pro Display ultralight;
+    margin-left: 100px;
+    margin-top: 40px;
+  text-align: center;
+  text-decoration: none;
+    box-shadow: 0 6px 11px rgba(0,0,0,.2);
+  border-radius: 4px;
+}
+.button3:hover{
+    background-color: deeppink;
+}
+.button4{
+        background-color:#c7007f;
+  border: none;
+  color: white;
+    font-size: 17px;
+  padding: 30px 50px;
+   font-family: SF Pro Display ultralight;
+    margin-left: 100px;
+    margin-top: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+    box-shadow: 0 6px 11px rgba(0,0,0,.2);
+}
+.button4:hover{
+    background-color: deeppink;
+}
+.button5{
+     background-color:#c7007f;
+  border: none;
+  color: white;
+    font-size: 17px;
+  padding: 30px 40px;
+   font-family: SF Pro Display ultralight;
+    margin-left: 1px;
+    margin-top: 40px;
+    box-shadow: 0 6px 11px rgba(0,0,0,.2);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+   
+}
+.button5:hover{
+    background-color: deeppink;
+}
+.button6{
+     background-color:#c7007f;
+  border: none;
+  color: white;
+    font-size: 17px;
+    box-shadow: 0 6px 11px rgba(0,0,0,.2);
+  padding: 30px 56px;
+   font-family: SF Pro Display ultralight;
+    margin-left: 77px;
+    margin-top: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+   
+}
+.button6:hover{
+    background-color: deeppink;
+}
+.button7{
+     background-color:#c7007f;
+  border: none;
+    box-shadow: 0 6px 11px rgba(0,0,0,.2);
+  color: white;
+    font-size: 17px;
+  padding: 30px 55px;
+ font-family: SF Pro Display ultralight;
+    margin-left: 110px;
+    margin-top: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+   
+}
+.button7:hover{
+    background-color: deeppink;
+}
+.button8{
+     background-color:#c7007f;
+  border: none;
+    box-shadow: 0 6px 11px rgba(0,0,0,.2);
+  color: white;
+    font-size: 17px;
+  padding: 30px 30px;
+   font-family: SF Pro Display ultralight;
+    margin-left: 115px;
+    margin-top: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+   
+}
+
+   .button8:hover{
+    background-color: deeppink;
+}
+.dropbtn {
+  background-image: url("icons8-menu-vertical-24%20(1).png" );
+   background-color: white;
+  color: white;
+padding: 12px;
+   position: relative;
+  border: none;
+  cursor: pointer;
+    margin-top: 11px;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: lightblue;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+    float: right;
+    margin-left: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: palevioletred;
+    color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    right:0;
+    font-size: 16px;
+    overflow:inherit;
+    margin-top: 6px;
+    
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+    
+  text-decoration: none;
+  display: block;
+   
+}
+.dropdown-content a:hover {background-color: lightblue;}
+.show {display:block;}
+
+h2{
+    color: crimson;
+  
+    font-family: SF Pro Display ultralight;
+}
+h2 span{
+    float: right;
+    margin-right: 15px;
+    font-family: SF Pro Display ultralight;
+}
+h1{
+    color:#c7007f;
+    font-family: SF Pro Display ultralight;
+}
+h3{
+    color: crimson;
+    float: right;
+}
+img.male-user-shadow{
+    vertical-align: text-top;
+}

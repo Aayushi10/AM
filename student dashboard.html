@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title> student dashboard</title>
+    <link href="sd.css" type="text/css" rel="stylesheet" />
+    </head>
+<body>
+    <h2 align="left"> College Name  
+        <span> <img src="male-user-shadow.png">
+            16EARCSXXX  
+   
+    <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Update Login Id</a>
+    <a href="#">Change Password</a>
+   
+  </div>
+            </div> </span> </h2>
+    <script>function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}</script>
+       
+ <center>  <div class="ann">
+    <h1 align="center"> Announcement</h1>
+        
+    
+     </div> </center>
+   <br/> <br/><br/><br/> <center> <div> <tr> <td><a href="#" class="button1" ><img src="icons8-about-100.png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;&nbsp;My Information</a>
+       </td>
+        <td><a href="#" class="button2"><img src="icons8-exam-100.png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;&nbsp;Examination</a></td>
+       <td><a href="#" class="button3"><img src="icons8-exam-100.png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;&nbsp; Academics</a></td>
+       <td><a href="#" class="button4"><img src="icons8-counselor-100.png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;Faculty</a></td>
+        </tr> </div>
+    <br/><br/><br/><br/><br/>
+  <div>  <tr>
+    <td><a href="#" class="button5"><img src="icons8-calendar-100%20(1).png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;&nbsp;Calendar</a></td>
+        <td><a href="#" class="button6"><img src="icons8-schedule-100.png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;&nbsp;Events</a>
+        </td>
+        <td><a href="#" class="button7"><img src="icons8-rupee-96.png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;&nbsp;Fees</a>
+        </td>
+        <td><a href="#" class="button8"><img src="icons8-about-96.png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;&nbsp;Info Corner</a>
+        </td>
+      </tr> </div>
+    </center>
+    
+    </body>
+
+</html>
