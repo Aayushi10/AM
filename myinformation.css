@@ -1,0 +1,101 @@
+.dropbtn {
+  background-image: url("icons8-menu-vertical-24%20(1).png" );
+   background-color: white;
+  color: white;
+padding: 12px;
+   position: relative;
+  border: none;
+  cursor: pointer;
+    margin-top: 11px;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: lightblue;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+    float: right;
+    margin-left: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: palevioletred;
+    color:white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    right:0;
+    font-size: 16px;
+    overflow:inherit;
+    margin-top: 6px;
+    
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+    
+  text-decoration: none;
+  display: block;
+   
+}
+.dropdown-content a:hover {background-color: lightblue;}
+.show {display:block;}
+h2{
+    color: crimson;
+     text-shadow: 0 4px 11px rgba(0,0,0,.1);
+    font-family: SF Pro Display ultralight;
+}
+h2 span{
+    float: right;
+    margin-right: 15px;
+    font-family: SF Pro Display ultralight;
+}
+.student{
+    color: white;
+    
+    font-family: SF Pro Display Ultralight;
+    border: 1px solid #302e2f;
+    width:1285px;
+    margin-top: 50px;
+    background-color: black;
+   margin-left: 10px;
+    border-radius: 8px;
+    box-shadow: 0 6px 17px rgba(0,0,0,.2);
+    
+}
+.name{
+     font-family: SF Pro Display Ultralight;
+    border: 1px solid #4a4647;
+    height: 400px;
+    width: 350px;
+    margin-left: 15px;
+    background-color: #4a4647;
+    font-size: 22px;
+    color:white;
+         box-shadow: 0 6px 17px rgba(0,0,0,.2);
+}
+.name p{
+    margin-left: 30px;
+     font-family: SF Pro Display Ultralight;
+      
+}
+.information{
+    border:1px solid lightgrey;
+    height: 400px;
+    width:930px;
+    background-color: lightgrey;
+    float: right;
+        box-shadow: 0 6px 11px rgba(0,0,0,.1);
+    
+}
+.information p{
+    margin-left: 30px;
+   
+     font-family: SF Pro Display Ultralight;
+    font-size: 22px;
+        
+}
+div{
+    display: inline-block;
+    }
