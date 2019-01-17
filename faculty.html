@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title> Faculty</title>
+    <link href="faculty1.css" type="text/css" rel="stylesheet" />
+    </head>
+<body>
+    <h2 align="left"> College Name  
+        <span> <img src="male-user-shadow.png">
+            16EARCSXXX  
+   
+    <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Change Password</a>
+    <a href="#">Logout</a>
+   
+  </div>
+            </div> </span> </h2>
+    <script>function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}</script>
+   <div>  <center>  <div class="faculty">
+       <h1> Faculty </h1></div> </center>
+       <table width="100px">
+       <tr>
+           <th width="10%" >S.No.</th>
+           <th>Name</th>
+           <th>Subject</th>
+           <th>Branch</th>
+           <th width="16%">Semester</th>
+           </tr>
+           <tr><td>1</td>
+               <td onclick="location.href='faculty profile information.html'"><a href="faculty%20profile%20%20information.html">X</a></td>
+               <td>X</td>
+               <td>X</td>
+               <td>X</td>
+               
+           </tr>
+       </table>
