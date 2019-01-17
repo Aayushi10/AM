@@ -1,0 +1,112 @@
+<html>
+<head>
+    <title> TimeTable</title>
+    <link href="timetable.css" type="text/css" rel="stylesheet" />
+    </head>
+<body>
+    <h2 align="left"> College Name  
+        <span> <img src="male-user-shadow.png">
+            16EARCSXXX  
+   
+    <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#">Change Password</a>
+    <a href="#">Logout</a>
+   
+  </div>
+            </div> </span> </h2>
+    <script>function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}</script>
+   <div>  <center>  <div class="tt">
+       <h1> Student Timetable </h1></div> </center>
+       <table width="100px">
+       <tr>
+           <th width="10%" >Period <br/> <br/> Day</th>
+           <th>I <br/><br/>  8:30-9:20 </th>
+           <th>II <br/> <br/> 9:20-10:10</th>
+           <th>III <br/> <br/> 10:10-11:00</th>
+           <th>IV <br/> <br/> 11:00-11:50</th>
+           <th>11:50-12:40</th>
+           <th>V <br/> <br/> 12:40-1:30</th>
+           <th>VI<br/> <br/> 1:30-2:20</th>
+           <th>VII<br/> <br/> 2:20-3:10</th>
+           </tr>
+           <tr><td id="mon">MON</td>
+               <td colspan="2">Java Lab <br/>(CL-6) </td>
+               <td colspan="2">Training</td>
+               <td>B</td>
+               <td>HSS</td>
+               <td>TOC</td>
+               <td>ESD</td>
+               
+           </tr>
+           <tr>
+           <td id="tue">TUE</td>
+           <td>CG</td>
+           <td>DAA</td>
+           <td colspan="2">Training</td>
+           <td>R</td>
+               <td colspan="2">SoftSkill</td>
+               <td>ESD</td>
+               
+           </tr>
+           <tr>
+           <td id="wed">WED</td>
+           <td>TOC</td>
+           <td>CN</td>
+           <td colspan="2">Training</td>
+           <td>E</td>
+           <td colspan="2">DAA Lab</td>
+           <td>AOS</td>
+          
+           </tr>
+           <tr>
+           <td id="thurs">THURS</td>
+           <td>AOS</td>
+           <td>CG</td>
+           <td colspan="2">Training</td>
+           <td>A</td>
+               <td colspan="2">ESD Lab <br/>(A1)/(EED LAB) <br/> CG Lab <br/> (A2)/(I YEAR BLOCK)</td>
+           <td>DAA</td>
+           </tr>
+           
+           <tr>
+           <td id="fri">FRI</td>
+           <td>TOC</td>
+           <td>CN</td>
+           <td colspan="2">Soft Skill</td>
+           <td>K</td>
+           <td>ESD</td>
+           <td>AOS</td>
+           <td>CG</td>
+           </tr>
+           <tr>
+           <td id="sat">SAT</td>
+           <td colspan="2">Soft Skill</td>
+           <td>CN</td>
+           <td>HSS</td>
+           <td></td>
+           <td colspan="2">ESD Lab <br/>(A2)/(EED LAB) <br/> CG Lab <br/> (A1)/(I YEAR BLOCK)</td>
+           <td>DAA</td>
+           
+           </tr>
+           
+           
+       </table>
+     <center>  <div class="att"> <a href="attendance.html" class="button5" text-align=center> <br/><span>  ATTENDANCE </span></a> </div> </center>
