@@ -1,0 +1,95 @@
+.dropbtn {
+  background-image: url("icons8-menu-vertical-24%20(1).png" );
+   background-color: white;
+  color: white;
+padding: 12px;
+   position: relative;
+  border: none;
+  cursor: pointer;
+    margin-top: 11px;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: lightblue;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+    float: right;
+    margin-left: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+    color:black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    right:0;
+    font-size: 16px;
+    overflow:inherit;
+    margin-top: 6px;
+    
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+    
+  text-decoration: none;
+  display: block;
+   
+}
+.dropdown-content a:hover {background-color: lightgrey;}
+.show {display:block;}
+h1{
+    text-shadow: 0 4px 11px rgba(0,0,0,.1);
+    font-family: SF Pro Display ultralight;
+}
+h2{
+    color: crimson;
+     text-shadow: 0 4px 11px rgba(0,0,0,.1);
+    font-family: SF Pro Display ultralight;
+}
+h2 span{
+    float: right;
+    margin-right: 15px;
+    font-family: SF Pro Display ultralight;
+}
+.events{
+    color:black;
+      text-shadow: 0 4px 11px rgba(0,0,0,.2);
+    font-family: SF Pro Display Ultralight;}
+table, tr, th, td {
+  border: 1px solid lightgrey;
+      border-collapse: collapse;
+     box-shadow: 0 6px 17px rgba(0,0,0,.2);
+    margin-top:30px;
+    margin-left: 40px;
+  font-family: SF Pro display ultralight;
+    font-size: 20px;
+    border-radius: 6px;
+    text-align: center;
+     
+}
+th,td{
+     padding: 33px;
+}
+table{
+    width:95%;
+  
+}
+td{
+    
+    height:100px;
+}
+th {
+  background-color: #0000ff17;
+  color:black;
+}
+td{
+ background-color:white;
+    color:black;
+}
+tr,td:hover {background-color:#e6e5e5;}
+
+   
